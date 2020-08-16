@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">IT19150758</string>
+    <string name="Toplabel">The Reader</string>
+    <string name="Toplabel2">Name</string>
+    <string name="logoutbutton">Log Out</string>
+    <string name="button1">Library Records</string>
+    <string name="button2">Borrowed Books</string>
+    <string name="button3">Wish To Read</string>
+    <string name="button4">Upcomming Books</string>
+    <string name="button5">Add a new upcomming book</string>
+    <string name="button6">Search for a book</string>
+    <string name="button7">Show upcomming books</string>
+    <string name="button8">Edit/Delete a book</string>
+    <string name="Enterbook">Add a book</string>
+    <string name="Enterbook1">Enter The Book Name</string>
+    <string name="Enterbook2">Enter The Book Publish Date </string>
+    <string name="Enterbook3">Enter The Book Author</string>
+    <string name="Enterbook4">Enter The Book Category</string>
+    <string name="Enter">Enter</string>
+    <string name="search">Search for a book</string>
+    <string name="search2">Search</string>
+    <string name="details">Details of the book</string>
+    <string name="bname1">Book Name</string>
+    <string name="datebirth">Publish Date</string>
+    <string name="baurthor1">Author</string>
+    <string name="bcategory1">Category</string>
+    <string name="upcommingbooks">Upcomming Books</string>
+    <string name="table1">Book</string>
+    <string name="table2">Author</string>
+    <string name="table3">Date</string>
+    <string name="delete_update">Search the book that you want to Edit/Delete</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="login">Log In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+
+</resources>
