@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">wish to read</string>
+    <string name="header1">The Reader</string>
+    <string name="pro">Name</string>
+    <string name="h2">Wish To Read Book List</string>
+    <string name="editBtn">Edit/Delete</string>
+    <string name="add_more">Add more books to wish list</string>
+    <string name="addBtn">Add more</string>
+    <string name="bt">Enter Book Title :</string>
+    <string name="ea">Enter Author     :</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="pd">Published Date :</string>
+    <string name="ec">Enter Category :</string>
+    <string name="ab">Add Books</string>
+
+
+</resources>
+
+
