@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IT19150826_MAD</string>
+    <string name="headerName">The Reader</string>
+    <string name="nameText">Name</string>
+    <string name="MenuHeader">Borrowed Books</string>
+    <string name="addNew">Add a New Book</string>
+    <string name="showList">Show the borrowed book list</string>
+    <string name="edit">Edit Records</string>
+    <string name="bookName">"Book Name "</string>
+    <string name="bDate">"Borrowed Date "</string>
+    <string name="rDate">"Return Date "</string>
+    <string name="library">"Library "</string>
+    <string name="submit">Submit</string>
+    <string name="search">Search</string>
+    <string name="save">Save Changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="list">Borrowed Books List</string>
+    <string name="fine">Fine Until Today</string>
+    <string name="logout">Logout</string>
+    <string name="deleteR">Delete Records</string>
+    <string name="searchR">Search Records</string>
+</resources>
