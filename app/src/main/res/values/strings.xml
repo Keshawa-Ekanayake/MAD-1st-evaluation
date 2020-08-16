@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IT19194486</string>
+    <string name="header">The Reader</string>
+    <string name="bttn">Log Out</string>
+    <string name="uname">Name</string>
+    <string name="bttn1">Add library details</string>
+    <string name="bttn2">Edit library details</string>
+    <string name="txt1">Library name :</string>
+    <string name="txt2">Address :</string>
+    <string name="txt3">Phone number :</string>
+    <string name="txt4">Membership epiration date :</string>
+    <string name="txt5">Fine per day :</string>
+    <string name="txt6">Enter the details</string>
+    <string name="bttn3">Submit</string>
+    <string name="bttn4">Save</string>
+    <string name="bttn5">Delete</string>
+
+</resources>
