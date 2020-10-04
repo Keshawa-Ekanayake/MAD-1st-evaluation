@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.191" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/bktitle"
         style="@style/add"
         android:layout_width="184dp"
         android:layout_height="51dp"
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.372" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/bkauthor"
         style="@style/add"
         android:layout_width="182dp"
         android:layout_height="49dp"
@@ -85,34 +85,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.514" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="137dp"
-        android:layout_height="53dp"
-        android:background="@color/Topview"
-        android:text="@string/edit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.957"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.692" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="137dp"
-        android:layout_height="53dp"
-        android:background="@color/Topview"
-        android:text="@string/delete"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.371"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691" />
-
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/checkt"
         android:layout_width="178dp"
         android:layout_height="39dp"
         android:ems="10"
@@ -125,7 +99,7 @@
         app:layout_constraintVertical_bias="0.369" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/checka"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -136,5 +110,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.516" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="168dp"
+        android:layout_height="64dp"
+        android:background="@color/Topview"
+        android:text="search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

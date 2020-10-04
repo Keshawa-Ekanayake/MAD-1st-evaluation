@@ -70,7 +70,7 @@
         app:layout_constraintVertical_bias="0.249" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/bktitle"
         style="@style/add"
         android:layout_width="201dp"
         android:layout_height="36dp"
@@ -84,7 +84,7 @@
         app:layout_constraintVertical_bias="0.344" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/bkauthor"
         style="@style/add"
         android:layout_width="201dp"
         android:layout_height="36dp"
@@ -98,7 +98,7 @@
         app:layout_constraintVertical_bias="0.418" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/submit"
         android:layout_width="137dp"
         android:layout_height="53dp"
         android:background="@color/Topview"
@@ -111,7 +111,7 @@
         app:layout_constraintVertical_bias="0.958" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/pdateview"
         style="@style/add"
         android:layout_width="201dp"
         android:layout_height="36dp"
@@ -125,10 +125,10 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/cat"
         style="@style/add"
-        android:layout_width="201dp"
-        android:layout_height="36dp"
+        android:layout_width="189dp"
+        android:layout_height="39dp"
         android:text="@string/ec"
         android:textColor="@color/text"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -136,70 +136,10 @@
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="122dp"
-        android:layout_height="36dp"
-        android:text="Horror"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.582" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="122dp"
-        android:layout_height="36dp"
-        android:text="Adventure"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="122dp"
-        android:layout_height="36dp"
-        android:text="Romance"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.758"
-        app:layout_constraintStart_toStartOf="@+id/textView5"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.708" />
-
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="122dp"
-        android:layout_height="36dp"
-        android:text="Thriller"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773" />
-
-    <CheckBox
-        android:id="@+id/checkBox5"
-        android:layout_width="122dp"
-        android:layout_height="36dp"
-        android:text="Other"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842" />
+        app:layout_constraintVertical_bias="0.605" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/titletxt"
         android:layout_width="178dp"
         android:layout_height="55dp"
         android:ems="10"
@@ -212,7 +152,7 @@
         app:layout_constraintVertical_bias="0.342" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/authortxt"
         android:layout_width="183dp"
         android:layout_height="52dp"
         android:ems="10"
@@ -225,7 +165,7 @@
         app:layout_constraintVertical_bias="0.427" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/pdatetxt"
         android:layout_width="185dp"
         android:layout_height="54dp"
         android:ems="10"
@@ -236,5 +176,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.511" />
+
+    <Button
+        android:id="@+id/home2"
+        android:layout_width="144dp"
+        android:layout_height="49dp"
+        android:background="@color/Topview"
+        android:text="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <EditText
+        android:id="@+id/categ"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
