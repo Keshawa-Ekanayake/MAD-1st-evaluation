@@ -24,5 +24,7 @@ public class interface05 extends AppCompatActivity {
         TextView bcategory1 = findViewById(R.id.bcategory1);
         bcategory1.setText(R.string.bcategory1);
 
+
+
     }
 }

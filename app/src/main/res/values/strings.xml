@@ -35,6 +35,12 @@
     <string name="login">Log In</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="nameProgram"> Update </string>
+    <string name="name"> Enter Program</string>
+    <string name="delete1"> Delete</string>
+    <string name="searchdata">Search</string>
+    <string name="updatedata">Update</string>
+    <string name="deletedata">Delete</string>
 
 
 </resources>
