@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152916195294",
+    "firebase_url": "https://the-reader-fdf2b.firebaseio.com",
+    "project_id": "the-reader-fdf2b",
+    "storage_bucket": "the-reader-fdf2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152916195294:android:dd15b8892a68fcc8884f4f",
+        "android_client_info": {
+          "package_name": "com.example.wishtoread"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152916195294-7bu2o1ihtok74i0q3r1bgnf8sq146dtf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv7qjtiOV_I1WGgjEyPqIUnsKQSBJndxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152916195294-7bu2o1ihtok74i0q3r1bgnf8sq146dtf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
