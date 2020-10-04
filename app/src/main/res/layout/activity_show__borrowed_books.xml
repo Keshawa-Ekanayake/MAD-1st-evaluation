@@ -93,77 +93,15 @@
             app:layout_constraintTop_toTopOf="@+id/headerView"
             app:layout_constraintVertical_bias="0.28" />
 
-        <TableLayout
-            android:layout_width="384dp"
-            android:layout_height="219dp"
+        <ListView
+            android:id="@+id/bookListView"
+            android:layout_width="415dp"
+            android:layout_height="454dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.585">>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="78dp">
-
-                <TextView
-                    android:id="@+id/clmn1"
-                    style="@style/Btn1"
-                    android:layout_width="74dp"
-                    android:layout_height="80dp"
-                    android:text="@string/bookName"
-                    tools:layout_editor_absoluteX="51dp"
-                    tools:layout_editor_absoluteY="563dp" />
-
-                <TextView
-                    android:id="@+id/clmnbDate"
-                    style="@style/Btn1"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/bDate"
-                    tools:layout_editor_absoluteX="94dp"
-                    tools:layout_editor_absoluteY="585dp" />
-
-
-                <TextView
-                    android:id="@+id/clmnrDate"
-                    style="@style/Btn1"
-                    android:layout_width="69dp"
-                    android:layout_height="80dp"
-                    android:text="@string/rDate"
-                    tools:layout_editor_absoluteX="88dp"
-                    tools:layout_editor_absoluteY="579dp" />
-
-                <TextView
-                    android:id="@+id/clmnLib"
-                    style="@style/Btn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/library"
-                    tools:layout_editor_absoluteX="72dp"
-                    tools:layout_editor_absoluteY="573dp" />
-
-                <TextView
-                    android:id="@+id/clmnFine"
-                    style="@style/Btn1"
-                    android:layout_width="74dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/fine"
-                    tools:layout_editor_absoluteX="117dp"
-                    tools:layout_editor_absoluteY="571dp" />
-
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="33dp" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </TableLayout>
+            app:layout_constraintVertical_bias="0.927" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
